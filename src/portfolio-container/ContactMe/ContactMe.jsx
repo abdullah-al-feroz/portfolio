@@ -8,8 +8,6 @@ import "./ContactMe.css";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import Footer from "../Footer/Footer";
-
-// ✅ New import instead of react-typical
 import { Typewriter } from "react-simple-typewriter";
 
 const ContactMe = (props) => {
@@ -52,7 +50,7 @@ const ContactMe = (props) => {
     setBool(true);
 
     try {
-      const res = await fetch("/api/send-email", {
+      const res = await fetch("http://localhost:5000/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
