@@ -49,6 +49,11 @@ const Header = () => {
     }
 
     const switchScreen = (index, screen) => {
+        if (screen.url) {
+            window.open(screen.url, '_blank');
+            setShowHeaderOptions(false);
+            return;
+        }
         let screenComponent = document.getElementById(screen.screen_name);
         if (!screenComponent)
             return;

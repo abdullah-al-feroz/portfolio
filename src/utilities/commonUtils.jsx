@@ -22,7 +22,8 @@ export const TOTAL_SCREENS = [
   { screen_name: "Contact Me", component: ContactMe },
   {
     screen_name: "Blog",
-    component: ""
+    component: "",
+    url: "https://medium.com/"
   }
 ];
 
