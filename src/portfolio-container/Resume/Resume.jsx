@@ -143,7 +143,7 @@ const Resume = (props) => {
             heading={"Xeon Technology Ltd"}
             subHeading={"FULL STACK SOFTWARE ENGINEER"}
             fromDate={"2021"}
-            toDate={"2024"}
+            toDate={"2025"}
           />
           <div className="experience-description">
             <span className="resume-description-text">
@@ -174,7 +174,7 @@ const Resume = (props) => {
           <ResumeHeading
             heading={"Limerick Resources Ltd"}
             subHeading={"FULL STACK SOFTWARE ENGINEER"}
-            fromDate={"2024"}
+            fromDate={"2025"}
             toDate={"Present"}
           />
           <div className="experience-description">
