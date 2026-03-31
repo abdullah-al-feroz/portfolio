@@ -100,14 +100,11 @@ const ContactMe = (props) => {
           <a href="https://www.linkedin.com/in/abdullah-al-firoz/">
             <i className="fa fa-linkedin-square" />
           </a>
-          <a href="">
-            <i className="fa fa-google-plus-square" />
-          </a>
           <a href="https://github.com/abdullah-al-feroz">
             <i className="fa fa-github" />
           </a>
-          <a href="">
-            <i className="fa fa-youtube-square" />
+          <a href="https://stackoverflow.com/users/17848207/abdullah-al-firoz">
+            <i className="fa fa-stack-overflow" />
           </a>
           <a href="https://x.com/Engineer_Feroz">
             <i className="fa fa-twitter" />

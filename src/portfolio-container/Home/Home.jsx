@@ -12,8 +12,8 @@ function Home(props) {
             <Footer /> 
             <div className='icon'>
             <a href='https://www.linkedin.com/in/abdullah-al-firoz/' className='facebook'><i className='fa fa-linkedin'></i> LinkedIn </a>
-            {/* <a href='https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA' className='youtube'> <i className='fa fa-youtube'></i>youtube</a> */}
-            <a href='https://x.com/Engineer_Feroz' className='twitter'> <i className='fa fa-twitter'></i> twitter </a>
+            {/* <a href='https://x.com/Engineer_Feroz' className='twitter'> <i className='fa fa-twitter'></i> twitter </a> */}
+            <a href='https://github.com/abdullah-al-feroz' className='youtube'> <i className='fa fa-github'></i>github</a>
             
           </div>
         </div>
