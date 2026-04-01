@@ -23,7 +23,7 @@ export const TOTAL_SCREENS = [
   {
     screen_name: "Blog",
     component: "",
-    url: "https://codewithfiroz.vercel.app/"
+    url: "https://codewithferoz.vercel.app/"
   }
 ];
 
